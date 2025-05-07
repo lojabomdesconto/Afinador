@@ -26,7 +26,7 @@ Application.prototype.start = function() {
     }
   }
 
-  swal.fire('Welcome online tuner!').then(function() {
+  swal.fire('Shalom!').then(function() {
     self.tuner.init()
     self.frequencyData = new Uint8Array(self.tuner.analyser.frequencyBinCount)
   })
